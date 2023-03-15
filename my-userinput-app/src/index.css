@@ -23,13 +23,12 @@ body {
 }
 
 .form-control {
-  margin-bottom: 1rem;  
+  margin-bottom: 1rem;
 }
 
 .form-control input,
 .form-control label {
   display: block;
-  
 }
 
 .form-control label {
@@ -72,7 +71,6 @@ button {
   padding: 0.5rem 1.5rem;
   border-radius: 4px;
   cursor: pointer;
-  
 }
 
 button:hover,
@@ -80,15 +78,16 @@ button:active {
   background-color: #33059e;
   border-color: #33059e;
 }
+
 button:disabled,
 button:disabled:hover,
-button:disabled:active
-{
-  background-color: yellowgreen;
-  color: #33059e;
-  border-color: yellow;
+button:disabled:active {
+  background-color: #ccc;
+  color: #292929;
+  border-color: #ccc;
   cursor: not-allowed;
 }
+
 .form-actions {
   text-align: right;
 }
@@ -109,5 +108,4 @@ button:disabled:active
 
 .error-text {
   color: #b40e0e;
-
 }

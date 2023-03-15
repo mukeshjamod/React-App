@@ -1,10 +1,12 @@
-import './App.css';
-import SimpleInput from './components/SimpleInput';
+// import './App.css';
+//import SimpleInput from './components/SimpleInput';
+ import BasicForm from './components/BasicForm';
 
 function App() {
   return (
     <div className="App">
-     <SimpleInput/>
+   
+     <BasicForm></BasicForm>
     </div>
   );
 }
